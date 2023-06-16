@@ -1,0 +1,440 @@
+body {
+  margin: 0;
+}
+
+.logo-container {
+  text-align: center;
+  padding-top: 13px;
+  padding-bottom: 10px;
+}
+
+.logo {
+  width: 130px;
+  margin-left: 76px;
+}
+
+nav {
+  background-color: white;
+  border: 1.7px solid #e0deca;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  text-align: center;
+  transition: 0.2s ease;
+}
+
+nav:hover {
+  background-color: black;
+  color: white;
+  border-color: black;
+  transition: 0.2s ease;
+}
+
+.nav-link {
+  text-decoration: none;
+  color: #413f42;
+  font-family: "Michroma", sans-serif;
+  font-size: 0.6rem;
+  padding-left: 60px;
+  letter-spacing: 4px;
+  transition: 0.3s ease;
+}
+
+.nav-link:hover {
+  color: white;
+  text-decoration: underline;
+  text-underline-offset: 19px;
+  transition: 0.3s ease;
+}
+
+.hero-title, .hero-overview {
+  color: #FFF;
+  position: absolute;
+  font-family: "Michroma", sans-serif;
+  padding-left: 1.5rem;
+  padding-top: 20rem;
+}
+
+.hero-title {
+  letter-spacing: 10px;
+  margin-top: 2rem;
+}
+
+.hero-overview {
+  letter-spacing: 4px;
+  font-size: 1rem;
+}
+
+.hero-video {
+  width: 100%;
+}
+
+.support-container {
+  margin: 0 auto;
+  padding-left: 30px;
+  padding-top: 10px;
+  float: left;
+}
+
+.get-support {
+  color: #000000;
+  font-family: "Montserrat", sans-serif;
+  font-weight: bold;
+  font-size: 0.8rem;
+}
+
+.fa-magnifying-glass {
+  font-size: 0.6rem;
+  padding-right: 5px;
+}
+
+.account-container {
+  margin: 0 auto;
+  padding-right: 30px;
+  padding-top: 10px;
+  float: right;
+}
+
+.account-options {
+  color: #000000;
+  font-family: "Montserrat", sans-serif;
+  font-weight: bold;
+  display: inline-block;
+  padding-left: 10px;
+  font-size: 0.8rem;
+}
+
+.fa-user {
+  color: #b8aeb8;
+  font-size: 1.1rem;
+  padding-left: 10px;
+  transition: 0.2s ease;
+}
+
+.fa-user:hover {
+  color: #000000;
+  transition: 0.2s ease;
+}
+
+.fa-heart {
+  color: #b8aeb8;
+  font-size: 1.1rem;
+  padding-left: 10px;
+  transition: 0.2s ease;
+}
+
+.fa-heart:hover {
+  color: #000000;
+  transition: 0.2s ease;
+}
+
+.fa-cart-shopping {
+  color: #b8aeb8;
+  font-size: 1.1rem;
+  padding-left: 10px;
+  transition: 0.2s ease;
+}
+
+.fa-cart-shopping:hover {
+  color: #000000;
+  transition: 0.2s ease;
+}
+
+/* INDEX */
+
+.bg {
+  width: 100%;
+}
+
+.heading-title {
+  font-family: "Michroma", sans-serif;
+  font-size: 2.5rem;
+  color: #413f42;
+  margin-bottom: 0;
+  padding-bottom: 30px;
+  padding-top: 50px;
+  text-align: center;
+  letter-spacing: 6px;
+}
+
+.our-products-title {
+  font-family: "Michroma", sans-serif;
+  font-size: 2.5rem;
+  color: #413f42;
+  margin-bottom: 0;
+  padding-bottom: 30px;
+  text-align: center;
+  letter-spacing: 6px;
+}
+
+.product {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+  padding-top: 40px;
+}
+
+.product-img {
+  display: flex;
+  flex-direction: row;
+  width: 20%;
+}
+
+.product-img:hover {
+  cursor: pointer;
+}
+
+.product-text-container-1, .product-text-container-2{
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.product-text-row {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  text-align: center;
+}
+
+.product-title {
+  font-family: "Michroma", sans-serif;
+  font-size: 1rem;
+  margin: 0;
+  padding-bottom: 10px;
+  padding-left: 83px;
+  color: #413f42;
+  text-align: center;
+  letter-spacing: 2px;
+}
+
+.product-price {
+  font-family: "Michroma", sans-serif;
+  font-size: 1rem;
+  margin: 0;
+  padding-bottom: 25px;
+  padding-left: 78px;
+  color: #413f42;
+  text-align: center;
+  letter-spacing: 2px;
+}
+
+.buy-now-btn {
+  font-family: "Michroma", sans-serif;
+  font-weight: bold;
+  font-size: 0.6rem;
+  letter-spacing: 2px;
+  padding: 10px 15px 10px 15px;
+  margin-left: 85px;
+  background-color: white;
+  border: 1px solid #000000;
+  transition: 0.2s ease;
+}
+
+.buy-now-btn:hover {
+  background-color: #000000;
+  font-weight: normal;
+  color: white;
+  transition: 0.2s ease;
+}
+
+.about-container {
+  padding: 1rem 20rem;
+}
+
+.about-overview {
+  font-family: "Michroma", sans-serif;
+  font-size: 0.8rem;
+  letter-spacing: 2px;
+}
+
+.product-features-container {
+  padding-top: 30px;
+}
+
+.features-row {
+  display: flex;
+  flex-direction: row;
+  padding-top: 30px;
+}
+
+.feature {
+  margin: auto;
+}
+
+.feature-img {
+  width: 120px;
+}
+
+.more-products-text-container {
+  padding-top: 250px;
+  text-align: center;
+}
+
+.blue-ksi-img {
+  width: 40%;
+  padding-top: 80px;
+  padding-left: 80px;
+  float: left;
+}
+
+.discover-flavour-title {
+  font-family: "Michroma", sans-serif;
+  font-size: 1.8rem;
+  color: #413f42;
+  letter-spacing: 6px;
+}
+
+.discover-flavour-overview {
+  font-family: "Michroma", sans-serif;
+  font-size: 0.5rem;
+  font-weight: bold;
+  color: #413f42;
+  letter-spacing: 6px;
+  padding-bottom: 20px;
+}
+
+.at-symbol {
+  font-size: 0.7rem;
+  font-weight: bold;
+}
+
+.view-more-btn {
+  font-family: "Michroma", sans-serif;
+  font-weight: bold;
+  font-size: 0.6rem;
+  letter-spacing: 2px;
+  padding: 10px 15px 10px 15px;
+  background-color: white;
+  border: 1px solid #000000;
+  transition: 0.2s ease;
+}
+
+.view-more-btn:hover {
+  background-color: #000000;
+  font-weight: normal;
+  color: white;
+  transition: 0.2s ease;
+}
+
+footer {
+  display: flex; /* THIS IS NEW */
+  flex-direction: row;
+  background-color: #000000;
+  height: 405px;
+  margin-top: 300px;
+}
+
+.column {
+  display: inline-block;
+}
+
+.column-2 {
+  display: inline-block;
+}
+
+.column-3 {
+  display: inline-block;
+}
+
+.footer-heading {
+  font-family: "Michroma", sans-serif;
+  font-size: 0.7rem;
+  padding-left: 200px;
+  padding-top: 25px;
+  letter-spacing: 4px;
+  color: white;
+}
+
+.footer-information {
+  font-family: "Montserrat", sans-serif;
+  font-size: 0.8rem;
+  padding-left: 200px;
+  padding-bottom: 10px;
+  letter-spacing: 1px;
+  color: white;
+}
+
+.fa-facebook {
+  color: white;
+  font-size: 1.7rem;
+  padding-left: 200px;
+  padding-top: 45px;
+}
+
+.fa-instagram {
+  color: white;
+  font-size: 1.7rem;
+  padding-left: 23px;
+}
+
+.fa-twitter {
+  color: white;
+  font-size: 1.7rem;
+  padding-left: 23px;
+}
+
+.enter-email {
+  padding: 8px 40px 8px 8px;
+  font-family: "Montserrat", sans-serif;
+  border-radius: 0;
+  border-style: none;
+  margin-left: 200px;
+}
+
+.check-box-container {
+  background-color: rgb(25, 25, 25);
+  margin-top: 15px;
+  margin-left: 200px;
+}
+
+.check-box {
+  font-family: "Montserrat", sans-serif;
+  border-radius: 0;
+  border-style: none;
+  margin-left: 10px;
+  margin-top: 25px;
+}
+
+.check-box-information {
+  font-family: "Montserrat", sans-serif;
+  font-size: 0.8rem;
+  display: inline-block;
+  padding-left: 5px;
+  padding-right: 10px;
+  letter-spacing: 1px;
+  color: white;
+}
+
+.subscribe-btn {
+  font-family: "Michroma", sans-serif;
+  font-weight: bold;
+  font-size: 0.6rem;
+  letter-spacing: 2px;
+  padding: 10px 15px 10px 15px;
+  margin-left: 200px;
+  margin-top: 15px;
+  background-color: #000000;
+  color: white;
+  border: 1px solid white;
+  transition: 0.2s ease;
+}
+
+.subscribe-btn:hover {
+  background-color: #FFF;
+  color: #000;
+  cursor: pointer;
+  border: 1px solid white;
+  transition: 0.2s ease;
+}
+
+@media only screen and (max-width: 560px) {
+  footer {
+    height: 1080px;
+    flex-direction: column;
+  }
+  .footer-heading {
+    padding-left: 0;
+  }
+}
